@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Edutech - Flexbox | Alura</title>
+
+	<link rel="stylesheet"  href="reset.css">
+	<link rel="stylesheet"  href="flexbox.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link href = "https: //fonts.googleapis.com/css2? family = Mukta: wght @ 700 & display = swap "rel =" stylesheet ">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+</head>
+<body>
+	<header>
+		<div class="">
+			<img class="banner" src="edutech.jpg">
+		</header>
+
+		<nav class="menu">
+			<a class="barra" href="index.html">Home</a>
+			<a class="barra" href="cursos.html">Cursos</a>
+			<a class="barra" href="sobre.html">Sobre nós</a>
+			<a class="barra" href="contato.html">Contato</a>
+
+		</nav>
+		<br>
+		<h1>Flexbox</h1><img id="imagem" src="Imagem7.jpg" style="display: block; margin-left: 200px; margin-right: auto; border-radius: 4%; border: 5px solid  black;">
+		<br>
+
+
+		<div>
+			<ul class="itens">Com esse curso de HTML e CSS você:</ul>
+			<li class="itens">Aprende a famosa especificação flexible box para posicionar seus elementos na página</li>
+			<li class="itens">Entende as diversas propriedades do flexbox e como usá-las</li>		
+			<li class="itens">Entende como as propriedades do flexbox substituem float, inline e inline-block</li>
+			<li class="itens">Elabora um site responsivo com flexbox</li>
+		</div>
+
+		<br><br>
+		<h2>A primeira impressão</h2>
+		<br>
+		<p class="center">Com base neste curso, serão apresentados abaixo alguns exemplos como forma de demonstração</p>
+		<br><br>
+
+		<p class="center">Flexbox</p>
+		<p>O  Flexible Box Module , geralmente chamado de  flexbox , foi projetado tanto como um modelo de  layout  unidimensional quanto como um método capaz de organizar espacialmente os elementos em uma interface, além de possuir recursos avançados de alinhamento. Este artigo artigos um resumo das principais características do flexbox , como quais exploraremos com mais detalhes não existem deste guia.</p>
+		<br>
+		<p>Quando se enunciados o flexbox como sendo unidimensional, enfatiza-se o fato de que ele lida com  o layout em uma dimensão de cada vez - seja uma linha ou uma coluna. Isto pode ser comparado com o modelo bidimensional de CSS - Layout de Grade , que permite o controle simultâneo das colunas e linhas.</p>
+		<br><br>
+
+		<p class="center">Contêiner Flex</p>
+		<p class="center2">Uma área de um documento que faz uso do flexbox é chamada de  contêiner  flex . Para criar essa estrutura, defina o valor da propriedade display do elemento representado pelo contêiner como flex ou  inline-flex. Desse modo, os elementos-filhos desse contêiner tornar-se-ão do tipo flex . Como todas as propriedades sem CSS possuem valores padrão, ao criar um contêiner flex, os elementos nele contidos apresentar o seguinte comportamento:</p>
+		<br>
+		<li class="lista">Exibição em linha (o padrão do flex-direction é row).</li>
+		<li class="lista">Alinhamento na borda inicial do eixo principal.</li>
+		<li class="lista">Não há expansão no eixo principal, mas pode haver contração.</li>
+		<li class="lista">Haverá expansão vertical para preencher a altura do eixo transversal.</li>
+		<li class="lista">Uma propriedade  flex-basis (en-US) disponível definida como auto.</li>
+		<li class="lista">A propriedade  flex-wrap é definida como  nowrap.</li>
+		<br>
+		<p class="center2">O resultado final é que todos os elementos devem ser adequados em uma linha, usando o tamanho do conteúdo como o tamanho no eixo principal. Se houver mais itens do que for possível caber no container, não haverá uma quebra de linha; ao incorrer, exceder o limite horizontal da página. Se alguns elementos principais mais altos que outros, todos os itens se estenderão ao longo do eixo transversal para preencher seu tamanho total.</p>
+		<br>
+		<p class="center2">É possível conferir essas questões no exemplo prático abaixo. Tente editar ou adicionar mais itens para testar o comportamento inicial do Flexbox.</p>
+		<br>
+		<div class="meio">
+			<iframe width="100%" height="350" src="https://mdn.github.io/css-examples/flexbox/basics/the-flex-container.html" loading="lazy"></iframe>
+		</div>
+		<br><br>
+		<p class="center">Propriedade flex-direction</p>
+		<br>
+		<p class="center2">A propriedade flex-direction permite alterar a direção dos elementos flex eliminados ao longo do eixo principal. Definindo a propriedade flex-direction como row-reverse(linha reversa) ainda teremos os elementos dispostos em uma linha, entretanto, as linhas inicial e final serão trocadas.</p>
+		<br>
+		<p class="center2">Se mudarmos flex-direction para uma column(coluna), o eixo principal exibirá o elemento em uma coluna. Trocando o valor para column-reverse(coluna reversa) fará com que as linhas inicial e final sejam novamente trocadas.</p>
+		<br>
+		<p class="center2">Nenhum exemplo prático abaixo tem-se uma propriedade flex-directiondefinida como row-reverse. Experimente os outros valores - row, column e column-reverse - para ver o que acontece com o conteúdo.</p>
+		<br>
+		<div class="meio">
+			<iframe width="100%" height="350" src="https://mdn.github.io/css-examples/flexbox/basics/flex-direction.html" loading="lazy"></iframe>
+		</div>
+
+		<p class="center2">Para testar seus conhecimentos e melhorar seu flexbox jogue Flexfrog!!!</p>
+		<br> 
+		<a href="https://flexboxfroggy.com/" class="botao2">Clique aqui para jogar Flexfrog </a>
+
+
+
+
+
+
+
+		<br><br>
+		<hr>
+		<br><br>
+		<a href="layouts.html" class="botao">Próximo</a><br><a href="html5_pt4.html" class="botao">Voltar</a>
+		<br><br>
+		<div class="box">	
+			<br>		
+			<h6 class="fundo">Caso queira baixar nosso APP para estudar offline, clique no icone de sua loja de aplicativos</h6>
+			<br>	
+
+			<a class="google" href="https://apps.apple.com/br/app/alura-cursos-online/id1225776635"><img src="apple.jpg" class="app" ></a>
+			<a class="google" href="https://play.google.com/store/apps/details?id=br.com.alura.mobi&hl=pt_BR"><img src="google.jpg" class="app"></a>
+			<br><br>
+		</div>
+		<hr style="margin: 0 auto">
+		<footer class="rodape conteiner">
+			<h7>Acesse para saber mais:</h7>
+			<br>
+			<ul class="rodape__social">
+				<li><a href="https://pt-br.facebook.com/AluraCursosOnline/" class="rodape__midia"><img src="facebook.jpg" alt="Ícone do facebook" style="margin:0 25px 0 25px;border-radius:16%";></a></li>
+				<li><a href="https://twitter.com/AluraOnline/status/1420076214803382277" class="rodape__midia"><img src="twitter.jpg" alt="Ícone do twitter" style="margin:0 25px 0 25px;border-radius:16%";></a></li>
+				<li><a href="https://www.instagram.com/aluraonline/?hl=pt" class="rodape__midia"><img src="instagram.jpg" alt="Ícone do instagram" style="margin:0px 25px 0 25px;border-radius:16%";></a></li>
+
+				<svg class="simbolo_A" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="width: 46px;height: 72px;">
+					<title>Logo Alura</title>
+					<desc>Created using Figma</desc>
+					<g id="Canvas" transform="translate(-2230 1001)">
+						<g id="Logo">
+							<g id="Oval 1">
+								<a href="https://www.alura.com.br/"><use xlink:href="#path0_fill" transform="translate(2230 -988.755)" fill="darkturquoise"/></a>
+							</g>
+							<g id="a">
+								<a class="simbolo_A" href="https://www.alura.com.br/"><use xlink:href="#path1_fill" transform="translate(2239 -1001)" fill="#ffffff"/></a>
+							</g>
+						</g>
+					</g>
+					<defs>
+						<path id="path0_fill" fill-rule="evenodd" d="M 22.4044 44.5283C 34.778 44.5283 44.8087 34.5603 44.8087 22.2642C 44.8087 9.968 34.778 0 22.4044 0C 10.0308 0 0 9.968 0 22.2642C 0 34.5603 10.0308 44.5283 22.4044 44.5283Z"/>
+						<path id="path1_fill" d="M 16.8684 47C 16.6944 46.6086 16.5422 46.21 16.4118 45.8042C 16.2813 45.3838 16.1799 44.9635 16.1074 44.5431C 15.3537 45.4128 14.4332 46.1158 13.3461 46.6521C 12.2735 47.1884 11.0414 47.4566 9.64991 47.4566C 7.34522 47.4566 5.51162 46.8333 4.1491 45.5867C 2.80108 44.3257 2.12706 42.6153 2.12706 40.4556C 2.12706 38.2523 3.01125 36.5492 4.77963 35.3461C 6.54801 34.143 9.14259 33.5415 12.5634 33.5415L 15.803 33.5415L 15.803 31.2368C 15.803 30.1062 15.4769 29.2293 14.8246 28.606C 14.1723 27.9827 13.2084 27.6711 11.9329 27.6711C 11.2081 27.6711 10.5631 27.758 9.99779 27.932C 9.43249 28.0914 8.9759 28.2871 8.62802 28.519L 8.21492 31.0411L 3.4316 31.0411L 3.45335 25.823C 4.61294 25.0402 5.93922 24.3807 7.43219 23.8444C 8.93966 23.3081 10.5776 23.0399 12.346 23.0399C 15.2594 23.0399 17.6221 23.7574 19.434 25.1924C 21.2603 26.6129 22.1735 28.6422 22.1735 31.2803L 22.1735 40.9991C 22.1735 41.3615 22.1735 41.7021 22.1735 42.021C 22.188 42.3399 22.217 42.6443 22.2605 42.9342L 24.1955 43.1951L 24.1955 47L 16.8684 47ZM 11.3676 42.7602C 12.3242 42.7602 13.1939 42.5573 13.9766 42.1515C 14.7594 41.7311 15.3681 41.2093 15.803 40.586L 15.803 36.9985L 12.5634 36.9985C 11.2154 36.9985 10.1935 37.3174 9.49772 37.9552C 8.80196 38.5785 8.45408 39.3322 8.45408 40.2164C 8.45408 41.0136 8.70774 41.6369 9.21507 42.0862C 9.73688 42.5356 10.4544 42.7602 11.3676 42.7602Z"/>
+					</defs>
+				</svg>
+			</ul>
+
+			<p class="Copyright">&copy; Copyright Renato Enguel - 2021</p>
+		</footer>
+	</body>
+	</html>

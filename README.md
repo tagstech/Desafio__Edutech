@@ -1,2 +1,2 @@
 # Desafio__Edutech
-site criado com a finalidade do desafio Edutech
+site criado  para o desafio edutech
